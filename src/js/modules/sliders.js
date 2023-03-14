@@ -22,7 +22,7 @@ const sliders = (slides, dir, prev, next) => {
   showSlides(slideIndex);
 
   function changeSlides(n) {
-    showSlides((slideIndex += n));
+    showSlides(slideIndex += n);
   }
 
   try {
