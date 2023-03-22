@@ -1,24 +1,70 @@
 {
-    "styles": [
-        {
-            "src": "assets/img/styles-5.jpg",
-            "title": "Пастелью",
-            "link": "#pastel"
-        },
-        {
-            "src": "assets/img/styles-6.jpg",
-            "title": "Поп-арт",
-            "link": "#popart"
-        },
-        {
-            "src": "assets/img/styles-7.png",
-            "title": "Фотомозаика",
-            "link": "#mozaika"
-        },
-        {
-            "src": "assets/img/styles-8.jpg",
-            "title": "Шарж",
-            "link": "#sharj"
-        }
-    ]
+  "styles": [
+    {
+      "src": "assets/img/styles-5.jpg",
+      "title": "Пастелью",
+      "link": "#pastel"
+    },
+    {
+      "src": "assets/img/styles-6.jpg",
+      "title": "Поп-арт",
+      "link": "#popart"
+    },
+    {
+      "src": "assets/img/styles-7.png",
+      "title": "Фотомозаика",
+      "link": "#mozaika"
+    },
+    {
+      "src": "assets/img/styles-8.jpg",
+      "title": "Шарж",
+      "link": "#sharj"
+    }
+  ],
+  "calcSize": [
+    {
+      "size": "40x50",
+      "value": "500"
+    },
+    {
+      "size": "50x70",
+      "value": "1000"
+    },
+    {
+      "size": "70x70",
+      "value": "1500"
+    },
+    {
+      "size": "70x100",
+      "value": "2000"
+    }
+  ],
+  "calcMaterial": [
+    {
+      "material": "fiber",
+      "value": "1"
+    },
+    {
+      "material": "linen",
+      "value": "1.2"
+    },
+    {
+      "material": "cotton",
+      "value": "1.5"
+    }
+  ],
+  "calcOptions": [
+    {
+      "Услуга": "Покрытие арт-гелем",
+      "value": "1000"
+    },
+    {
+      "Услуга": "Экспресс-изготовление",
+      "value": "1500"
+    },
+    {
+      "Услуга": "Доставка готовых работ",
+      "value": "500"
+    }
+  ]
 }
