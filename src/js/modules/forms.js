@@ -1,6 +1,6 @@
-import {postData} from '../services/requests';
+import { postData } from "../services/requests";
 
-const forms = () => {
+const forms = (state) => {
   const forms = document.querySelectorAll("form"),
     inputs = document.querySelectorAll("input"),
     upload = document.querySelectorAll('[name="upload"]');
@@ -65,6 +65,13 @@ const forms = () => {
 
       const formData = new FormData(form);
       let api;
+
+      if (form.getAttribute("data-calc") == "sum") {
+        for (let key in state) {
+          formData.append(key, state[key]);
+        }
+      }
+
       form.closest(".popup-design") || form.classList.contains("calc_form")
         ? (api = path.server)
         : (api = path.question);
